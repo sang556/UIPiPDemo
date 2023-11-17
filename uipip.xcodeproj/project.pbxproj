@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44338F36B97AC0938FD7B6AF /* Pods_uipip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507D82E967286F1A04793680 /* Pods_uipip.framework */; };
 		71205CB927523230004779DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71205CB827523230004779DA /* AppDelegate.swift */; };
 		71205CBB27523230004779DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71205CBA27523230004779DA /* SceneDelegate.swift */; };
 		71205CBD27523230004779DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71205CBC27523230004779DA /* ViewController.swift */; };
@@ -19,9 +20,28 @@
 		71205CDA2752344C004779DA /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71205CD92752344C004779DA /* VideoProvider.swift */; };
 		71205CF327528057004779DA /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71205CF227528057004779DA /* Data+.swift */; };
 		71205CF5275280AD004779DA /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71205CF4275280AD004779DA /* UIImage+.swift */; };
+		AAE724C32923394F0083B1E9 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE724C22923394F0083B1E9 /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AAE724B9292334C60083B1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE72487292334C60083B1E9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 702DBE57D2307DCFFBB2E5C1E1DBFB03;
+			remoteInfo = PIPKit;
+		};
+		AAE724BB292334C60083B1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE72487292334C60083B1E9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C1DA777F7D04EC47230098FB0A3B15B;
+			remoteInfo = "Pods-uipip";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		507D82E967286F1A04793680 /* Pods_uipip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uipip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71205CB527523230004779DA /* uipip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uipip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71205CB827523230004779DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71205CBA27523230004779DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +56,44 @@
 		71205CD92752344C004779DA /* VideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProvider.swift; sourceTree = "<group>"; };
 		71205CF227528057004779DA /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
 		71205CF4275280AD004779DA /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		AAE72487292334C60083B1E9 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		AAE7248C292334C60083B1E9 /* Pods-uipip.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-uipip.release.xcconfig"; sourceTree = "<group>"; };
+		AAE7248D292334C60083B1E9 /* Pods-uipip-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-uipip-frameworks.sh"; sourceTree = "<group>"; };
+		AAE7248E292334C60083B1E9 /* Pods-uipip-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-uipip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAE7248F292334C60083B1E9 /* Pods-uipip-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-uipip-umbrella.h"; sourceTree = "<group>"; };
+		AAE72490292334C60083B1E9 /* Pods-uipip-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-uipip-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		AAE72491292334C60083B1E9 /* Pods-uipip-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-uipip-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		AAE72492292334C60083B1E9 /* Pods-uipip.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-uipip.modulemap"; sourceTree = "<group>"; };
+		AAE72493292334C60083B1E9 /* Pods-uipip.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-uipip.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE72494292334C60083B1E9 /* Pods-uipip-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-uipip-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		AAE72495292334C60083B1E9 /* Pods-uipip-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-uipip-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		AAE72496292334C60083B1E9 /* Pods-uipip-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-uipip-dummy.m"; sourceTree = "<group>"; };
+		AAE72497292334C60083B1E9 /* Pods-uipip-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-uipip-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAE72498292334C60083B1E9 /* Pods-uipip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-uipip-Info.plist"; sourceTree = "<group>"; };
+		AAE7249A292334C60083B1E9 /* PIPKit.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PIPKit.debug.xcconfig; sourceTree = "<group>"; };
+		AAE7249B292334C60083B1E9 /* PIPKit-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PIPKit-prefix.pch"; sourceTree = "<group>"; };
+		AAE7249C292334C60083B1E9 /* PIPKit-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PIPKit-dummy.m"; sourceTree = "<group>"; };
+		AAE7249D292334C60083B1E9 /* PIPKit-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PIPKit-umbrella.h"; sourceTree = "<group>"; };
+		AAE7249E292334C60083B1E9 /* PIPKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = PIPKit.modulemap; sourceTree = "<group>"; };
+		AAE7249F292334C60083B1E9 /* PIPKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PIPKit-Info.plist"; sourceTree = "<group>"; };
+		AAE724A0292334C60083B1E9 /* PIPKit.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PIPKit.release.xcconfig; sourceTree = "<group>"; };
+		AAE724A1292334C60083B1E9 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		AAE724A5292334C60083B1E9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AAE724A6292334C60083B1E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AAE724AA292334C60083B1E9 /* UIView+Associated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Associated.swift"; sourceTree = "<group>"; };
+		AAE724AB292334C60083B1E9 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		AAE724AC292334C60083B1E9 /* UIViewController+Associated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Associated.swift"; sourceTree = "<group>"; };
+		AAE724AE292334C60083B1E9 /* AVPIPKitRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitRenderer.swift; sourceTree = "<group>"; };
+		AAE724AF292334C60083B1E9 /* AVPIPKitVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitVideoController.swift; sourceTree = "<group>"; };
+		AAE724B0292334C60083B1E9 /* AVPIPKitUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitUsable.swift; sourceTree = "<group>"; };
+		AAE724B1292334C60083B1E9 /* AVPIPKitUsable+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPIPKitUsable+UIKit.swift"; sourceTree = "<group>"; };
+		AAE724B2292334C60083B1E9 /* AVPIPKitVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitVideoProvider.swift; sourceTree = "<group>"; };
+		AAE724B4292334C60083B1E9 /* PIPKitEventDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPKitEventDispatcher.swift; sourceTree = "<group>"; };
+		AAE724B5292334C60083B1E9 /* PIPKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPKit.swift; sourceTree = "<group>"; };
+		AAE724B6292334C60083B1E9 /* PIPUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPUsable.swift; sourceTree = "<group>"; };
+		AAE724C22923394F0083B1E9 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		AB43411442241AC49B75FE2F /* Pods-uipip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uipip.release.xcconfig"; path = "Target Support Files/Pods-uipip/Pods-uipip.release.xcconfig"; sourceTree = "<group>"; };
+		BE0E378306FB2732B28A9686 /* Pods-uipip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uipip.debug.xcconfig"; path = "Target Support Files/Pods-uipip/Pods-uipip.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +103,7 @@
 			files = (
 				71205CD2275232C8004779DA /* AVFoundation.framework in Frameworks */,
 				71205CD0275232C0004779DA /* AVKit.framework in Frameworks */,
+				44338F36B97AC0938FD7B6AF /* Pods_uipip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +116,7 @@
 				71205CB727523230004779DA /* uipip */,
 				71205CB627523230004779DA /* Products */,
 				71205CCE275232C0004779DA /* Frameworks */,
+				D0D832C3967014DA5024DE25 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +131,7 @@
 		71205CB727523230004779DA /* uipip */ = {
 			isa = PBXGroup;
 			children = (
+				AAE724C22923394F0083B1E9 /* SubViewController.swift */,
 				71205CB827523230004779DA /* AppDelegate.swift */,
 				71205CBA27523230004779DA /* SceneDelegate.swift */,
 				71205CBC27523230004779DA /* ViewController.swift */,
@@ -89,10 +150,160 @@
 		71205CCE275232C0004779DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAE72486292334C60083B1E9 /* Pods */,
 				71205CD1275232C8004779DA /* AVFoundation.framework */,
 				71205CCF275232C0004779DA /* AVKit.framework */,
+				507D82E967286F1A04793680 /* Pods_uipip.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAE72486292334C60083B1E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAE72487292334C60083B1E9 /* Pods.xcodeproj */,
+				AAE7248A292334C60083B1E9 /* Target Support Files */,
+				AAE724A1292334C60083B1E9 /* Manifest.lock */,
+				AAE724A2292334C60083B1E9 /* Local Podspecs */,
+				AAE724A3292334C60083B1E9 /* Headers */,
+				AAE724A4292334C60083B1E9 /* PIPKit */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAE72488292334C60083B1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724BA292334C60083B1E9 /* PIPKit */,
+				AAE724BC292334C60083B1E9 /* Pods-uipip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE7248A292334C60083B1E9 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE7248B292334C60083B1E9 /* Pods-uipip */,
+				AAE72499292334C60083B1E9 /* PIPKit */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		AAE7248B292334C60083B1E9 /* Pods-uipip */ = {
+			isa = PBXGroup;
+			children = (
+				AAE7248C292334C60083B1E9 /* Pods-uipip.release.xcconfig */,
+				AAE7248D292334C60083B1E9 /* Pods-uipip-frameworks.sh */,
+				AAE7248E292334C60083B1E9 /* Pods-uipip-acknowledgements.markdown */,
+				AAE7248F292334C60083B1E9 /* Pods-uipip-umbrella.h */,
+				AAE72490292334C60083B1E9 /* Pods-uipip-frameworks-Debug-input-files.xcfilelist */,
+				AAE72491292334C60083B1E9 /* Pods-uipip-frameworks-Release-input-files.xcfilelist */,
+				AAE72492292334C60083B1E9 /* Pods-uipip.modulemap */,
+				AAE72493292334C60083B1E9 /* Pods-uipip.debug.xcconfig */,
+				AAE72494292334C60083B1E9 /* Pods-uipip-frameworks-Release-output-files.xcfilelist */,
+				AAE72495292334C60083B1E9 /* Pods-uipip-frameworks-Debug-output-files.xcfilelist */,
+				AAE72496292334C60083B1E9 /* Pods-uipip-dummy.m */,
+				AAE72497292334C60083B1E9 /* Pods-uipip-acknowledgements.plist */,
+				AAE72498292334C60083B1E9 /* Pods-uipip-Info.plist */,
+			);
+			path = "Pods-uipip";
+			sourceTree = "<group>";
+		};
+		AAE72499292334C60083B1E9 /* PIPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAE7249A292334C60083B1E9 /* PIPKit.debug.xcconfig */,
+				AAE7249B292334C60083B1E9 /* PIPKit-prefix.pch */,
+				AAE7249C292334C60083B1E9 /* PIPKit-dummy.m */,
+				AAE7249D292334C60083B1E9 /* PIPKit-umbrella.h */,
+				AAE7249E292334C60083B1E9 /* PIPKit.modulemap */,
+				AAE7249F292334C60083B1E9 /* PIPKit-Info.plist */,
+				AAE724A0292334C60083B1E9 /* PIPKit.release.xcconfig */,
+			);
+			path = PIPKit;
+			sourceTree = "<group>";
+		};
+		AAE724A2292334C60083B1E9 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		AAE724A3292334C60083B1E9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		AAE724A4292334C60083B1E9 /* PIPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724A5292334C60083B1E9 /* LICENSE */,
+				AAE724A6292334C60083B1E9 /* README.md */,
+				AAE724A7292334C60083B1E9 /* PIPKit */,
+			);
+			path = PIPKit;
+			sourceTree = "<group>";
+		};
+		AAE724A7292334C60083B1E9 /* PIPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724A8292334C60083B1E9 /* Classes */,
+			);
+			path = PIPKit;
+			sourceTree = "<group>";
+		};
+		AAE724A8292334C60083B1E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724A9292334C60083B1E9 /* Extension */,
+				AAE724AD292334C60083B1E9 /* AVPIPKit */,
+				AAE724B3292334C60083B1E9 /* PIPKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AAE724A9292334C60083B1E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724AA292334C60083B1E9 /* UIView+Associated.swift */,
+				AAE724AB292334C60083B1E9 /* UIWindow+Extension.swift */,
+				AAE724AC292334C60083B1E9 /* UIViewController+Associated.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AAE724AD292334C60083B1E9 /* AVPIPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724AE292334C60083B1E9 /* AVPIPKitRenderer.swift */,
+				AAE724AF292334C60083B1E9 /* AVPIPKitVideoController.swift */,
+				AAE724B0292334C60083B1E9 /* AVPIPKitUsable.swift */,
+				AAE724B1292334C60083B1E9 /* AVPIPKitUsable+UIKit.swift */,
+				AAE724B2292334C60083B1E9 /* AVPIPKitVideoProvider.swift */,
+			);
+			path = AVPIPKit;
+			sourceTree = "<group>";
+		};
+		AAE724B3292334C60083B1E9 /* PIPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAE724B4292334C60083B1E9 /* PIPKitEventDispatcher.swift */,
+				AAE724B5292334C60083B1E9 /* PIPKit.swift */,
+				AAE724B6292334C60083B1E9 /* PIPUsable.swift */,
+			);
+			path = PIPKit;
+			sourceTree = "<group>";
+		};
+		D0D832C3967014DA5024DE25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE0E378306FB2732B28A9686 /* Pods-uipip.debug.xcconfig */,
+				AB43411442241AC49B75FE2F /* Pods-uipip.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71205CC927523232004779DA /* Build configuration list for PBXNativeTarget "uipip" */;
 			buildPhases = (
+				33A25A5E540F8130D0A56C60 /* [CP] Check Pods Manifest.lock */,
 				71205CB127523230004779DA /* Sources */,
 				71205CB227523230004779DA /* Frameworks */,
 				71205CB327523230004779DA /* Resources */,
+				DE8F032AE83A6B20E643790F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,12 +354,37 @@
 			mainGroup = 71205CAC27523230004779DA;
 			productRefGroup = 71205CB627523230004779DA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AAE72488292334C60083B1E9 /* Products */;
+					ProjectRef = AAE72487292334C60083B1E9 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				71205CB427523230004779DA /* uipip */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AAE724BA292334C60083B1E9 /* PIPKit */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = PIPKit;
+			path = PIPKit.framework;
+			remoteRef = AAE724B9292334C60083B1E9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AAE724BC292334C60083B1E9 /* Pods-uipip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-uipip";
+			path = Pods_uipip.framework;
+			remoteRef = AAE724BB292334C60083B1E9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		71205CB327523230004779DA /* Resources */ = {
@@ -161,6 +399,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33A25A5E540F8130D0A56C60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uipip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8F032AE83A6B20E643790F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uipip/Pods-uipip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uipip/Pods-uipip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uipip/Pods-uipip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71205CB127523230004779DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -171,6 +451,7 @@
 				71205CB927523230004779DA /* AppDelegate.swift in Sources */,
 				71205CDA2752344C004779DA /* VideoProvider.swift in Sources */,
 				71205CF327528057004779DA /* Data+.swift in Sources */,
+				AAE724C32923394F0083B1E9 /* SubViewController.swift in Sources */,
 				71205CBB27523230004779DA /* SceneDelegate.swift in Sources */,
 				71205CD6275232E8004779DA /* UIView+.swift in Sources */,
 			);
@@ -249,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -304,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -316,12 +597,15 @@
 		};
 		71205CCA27523232004779DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0E378306FB2732B28A9686 /* Pods-uipip.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VWF6XD9A74;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uipip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -329,6 +613,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,12 +629,15 @@
 		};
 		71205CCB27523232004779DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB43411442241AC49B75FE2F /* Pods-uipip.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VWF6XD9A74;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uipip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -357,6 +645,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

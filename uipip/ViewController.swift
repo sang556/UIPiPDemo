@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         let session = AVAudioSession.sharedInstance()
         try! session.setCategory(.playback, mode: .moviePlayback)
         try! session.setActive(true)
+        
+        view.backgroundColor = .gray
+        view.layer.borderColor = UIColor.red.cgColor
+        view.layer.borderWidth = 1.0
 
         let margin = ((view.bounds.width - 200) / 2)
         _startButton.frame = .init(x: margin, y: 80, width: 200, height: 30)

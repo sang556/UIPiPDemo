@@ -19,7 +19,8 @@ class VideoProvider: NSObject {
 
         let label = UILabel()
         label.backgroundColor = .white
-        label.frame = .init(x: 0, y: 0, width: 200, height: 30)
+        label.frame = .init(x: 0, y: 0, width: 1000, height: 0.01)
+        //label.frame = .init(x: 0, y: 0, width: 200, height: 30)
         label.font = .boldSystemFont(ofSize: 10)
         label.textAlignment = .center
         label.textColor = .black
@@ -28,7 +29,8 @@ class VideoProvider: NSObject {
 
     // 現在時刻を表示
     func nextBuffer() -> UIImage {
-        _label.text = "\(Date())"
+        //_label.text = "\(Date())"
+        _label.text = "木村拓一App正在后台运行..."
         return _label.uiImage
     }
 
